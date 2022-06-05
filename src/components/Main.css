@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.card {
+    display: flex;
+    width: 400px ;
+    height: 400px;
+    background-image:url(images/weather.jpg);
+    background-size: 151%;
+    opacity: 0.95;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 34%;
+    top: 25px;
+    border-radius: 12px;
+    box-shadow: 2px 5px 10px;
+}
+
+h6{
+  text-align: center;
+  font-size: 25px;  
+
+}
+h2{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 98px;
+}
+p{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 180px;
+    font-size: 25px;
+    font-weight: bold;
+}
+h5{
+    position: absolute;
+    top: 85%;
+    margin-left: 20px;
+}
+.wind h5{
+    position: relative;
+    margin-left: 20px;
+}
+.condition{
+    position: absolute;
+    height: 80px;
+    width: 250px;
+    line-height: 80px;
+    margin-top: 90px;
+    margin-left: 75px;
+}
+.image{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    margin-left: 95px;
+    margin-top: 20px;
+    text-align: center;
+}
+.wind{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    line-height: 0px;
+    top: 78%;
+    margin-left: 190px;
+    text-align: center;
+}
+.card1{
+    display: none;
+}
+

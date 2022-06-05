@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: skyblue;
+}
+.main{
+    background-color: skyblue;
+    height: auto;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    color: whitesmoke;
+    text-shadow: 1px 5px 6px black;
+}
+form input[type="text"]{
+     width: 40%;
+     align-items: center;
+     position: relative;
+     left: 26%;
+     display: flex;
+     padding: 10px 40px;
+     margin-top: 3%;
+     border-radius: 12px;
+     outline: none;
+     border: none;
+}
+form input[type="text"]:focus{
+    border-top:2px solid red;
+    border-right:2px solid green;
+    border-left:2px solid yellow;
+    border-bottom:2px solid blue; 
+}
+button{
+    width: 70px;
+    align-items: center;
+    position: relative;
+    left: 46%;
+    display: flex;
+    padding: 10px 15px;
+    margin-top: 3%;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 5px 8px green;
+}
+button:hover{
+    background-color: rgba(248, 252, 14, 0.699);
+}
