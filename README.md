@@ -1,9 +1,7 @@
-################################################################################
+############################################################################
 
-This is a test app for code reference
+This is my first weather application
 
-This is weather application
-
-using React
+using React JS
 
 [project-preview](https://weather-app-cs.herokuapp.com/)
